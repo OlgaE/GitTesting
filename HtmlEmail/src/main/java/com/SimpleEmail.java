@@ -36,5 +36,6 @@ class SimpleMail {
         transport.connect();
         transport.sendMessage(message, message.getRecipients(Message.RecipientType.TO));
         transport.close();
+        
         }
 }
